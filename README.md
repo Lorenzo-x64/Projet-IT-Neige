@@ -48,6 +48,14 @@ SEN0313 par DF Robot aussi connu sous A01NYUB (identique) [DF Robot](https://www
 
 ### Carte
 
+| Carte / Module                        | ESP32       | 4G              | GPS          | microSD | Batterie 18650 + charge | Prix approx. (2026) | Remarques / quand choisir                                                                 |
+|---------------------------------------|-------------|-----------------|--------------|---------|--------------------------|---------------------|-------------------------------------------------------------------------------------------|
+| **LILYGO T-A7670G (avec GPS)**        | ESP32      | LTE Cat-1      | Oui (GNSS)  | Oui    | Oui                     | 25-40 €            | Excellent choix global, bien supporté, tout intégré, idéal pour la simplicité et le prix |
+| **Waveshare ESP32-S3-SIM7670G**       | ESP32-S3   | LTE Cat-1      | Oui (GNSS)  | Oui    | Oui                     | 45-60 €            | Plus moderne (ESP32-S3 : plus de RAM/PSRAM/Flash, USB OTG, perf supérieures), interface caméra possible, bandes globales |
+| **LILYGO T-SIM7000G** (ancienne)      | ESP32      | LTE-M / NB-IoT + 2G | Oui     | Oui    | Oui                     | ~30 €              | Moins rapide en data (pas full 4G), 2G bientôt obsolète en Europe → à éviter si besoin data rapide |
+| **Walter (DPTechnics)**               | ESP32-S3   | LTE-M / NB-IoT | Oui (GNSS)  | Non (extension possible) | Non intégré     | 50-80 €            | Certifié industriel, très basse conso, certif CE/UKCA/global, mais pas de SD natif ni charge 18650 intégrée |
+| **ESP32 + module SIM7600/SIM76xx séparé** | ESP32   | LTE Cat-4      | Externe     | Externe| Externe                 | Variable (40-80 €+) | Plus rapide en 4G (uploads/downloads), mais montage câblage + cher + plus compliqué     |
+
 ### Communications
 
 
