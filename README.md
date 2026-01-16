@@ -12,7 +12,7 @@
 
 ### Capteur
 
-SEN0313 par DF Robot aussi connu sous A01NYUB (identique) [DfRobot](https://www.dfrobot.com/product-1934.html)
+SEN0313 par DF Robot aussi connu sous A01NYUB (identique) [DF Robot](https://www.dfrobot.com/product-1934.html)
 
 <details>
 
