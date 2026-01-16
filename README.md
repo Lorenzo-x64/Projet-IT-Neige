@@ -5,7 +5,7 @@
 - [Hardware](#hardware)
   - [Capteur](#capteur)
   - [Carte](#carte)
-  - 📡 [Communications](#communications)
+  - [Communications](#communications)
 - [💾](#captures-décran)
 
 ## Hardware 🛠️
@@ -42,7 +42,7 @@ Autres points forts :
 
 ### Carte
 
-- 📡 **Communications**
+###Communications
 
 
 <div style="line-height: 0.9; font-family: 'Courier New', Courier, monospace; white-space: pre; color: #d0d0d0;">
