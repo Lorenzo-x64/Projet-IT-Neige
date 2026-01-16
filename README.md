@@ -7,10 +7,8 @@
 ![Image Alt](https://github.com/lorenzor0912/Projet-IT-Neige/blob/f1702dfe2ce56fabe681698466927644a630968b/ReadMe_IMG/SEN0313.JPG)
 
 
-
-
-<div style="line-height: 0.8; font-family: 'Courier New', monospace;">
-<pre>   
+<div style="line-height: 0.9; font-family: 'Courier New', Courier, monospace; white-space: pre; color: #d0d0d0;">
+<pre>
    _____ _   _ ___  _____    _           _         
   / ____| | (_)__ \|  __ \  | |         | |        
  | (___ | |_ _   ) | |  | | | |     __ _| |__  ___ 
