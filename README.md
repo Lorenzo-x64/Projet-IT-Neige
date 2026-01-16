@@ -2,11 +2,11 @@
 
 ## Table des matières 📖
 
-- [Hardware](#hardware)
-  - [Capteur](#capteur)
-  - [Carte📡](#carte)
-  - [Communications](#communications)
-- [💾](#captures-décran)
+- [Hardware 🛠️](#hardware)
+  - [Capteur 📸](#capteur)
+  - [Carte 📺](#carte)
+  - [Communications 📡](#communications)
+- [Stockage 💾](#Stockage)
 
 ## Hardware 🛠️
 
