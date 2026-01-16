@@ -1,5 +1,4 @@
 # Projet-IT-Neige
-IT 821
 
 # Sensors
 
