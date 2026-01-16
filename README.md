@@ -105,7 +105,7 @@ ou
 
 - Waveshare ESP32-S3-SIM7670G (plus chère mais esp32S3 donc plus puissant)
 
-![Image Alt](ok2)
+![Image Alt](https://github.com/lorenzor0912/Projet-IT-Neige/blob/77a881eeabc7f3ce35e2152226ed993d40b5088b/ReadMe_IMG/Waveshare%20ESP32-S3-SIM7670G%20.jpg)
 
 
 ### Communications
