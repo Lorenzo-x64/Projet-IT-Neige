@@ -19,20 +19,21 @@ SEN0313 par DF Robot (ip67) [Digikey](https://www.digikey.fr/fr/products/detail/
 <summary>Specifications Techniques</summary>
 
 
-Type : Capteur de distance ultrasonique étanche (waterproof & dustproof, IP67)
+- Type : Capteur de distance ultrasonique étanche (waterproof & dustproof, IP67)
 
-Plage de mesure : 28 cm à 750 cm (soit jusqu'à 7,5 mètres)
+- Plage de mesure : 28 cm à 750 cm (soit jusqu'à 7,5 mètres)
 
-Précision : ±1 cm
-Interface de communication : UART (série asynchrone, très simple à utiliser)
+- Précision : ±1 cm
 
-Tension d'alimentation : 3,3 V à 5 V (compatible Arduino, Raspberry Pi, etc.)
+- Interface de communication : UART (série asynchrone, très simple à utiliser)
 
-Sortie : Valeur de distance directement disponible en UART (pas besoin de calculer le temps de vol soi-même)
+- Tension d'alimentation : 3,3 V à 5 V (compatible Arduino, Raspberry Pi, etc.)
 
-Autres points forts :
-        Résistant à la poussière, au brouillard, à la fumée (meilleure pénétration que les HC-SR04 classiques)
-        Livré avec un cône (bell mouth) amovible pour optimiser la portée et la directivité
+- Sortie : Valeur de distance directement disponible en UART (pas besoin de calculer le temps de vol soi-même)
+
+- Autres points forts :
+        - Résistant à la poussière, au brouillard, à la fumée (meilleure pénétration que les HC-SR04 classiques)
+        - Livré avec un cône (bell mouth) amovible pour optimiser la portée et la directivité
 
 </details>
 
