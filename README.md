@@ -121,6 +121,8 @@ Sachant que nos deux microcontrolleurs ont tous deux un port de carte sd il faut
 
 certains carte all in one on meme des mini camera (par ex waveshare) donc peut se reveler interessant
 
+[Waveshare Demo](https://www.youtube.com/watch?v=z_u_RoW-mEs)
+
 ![Image Alt](https://github.com/lorenzor0912/Projet-IT-Neige/blob/d28ecf070d6103b8d8a0e5f1bddaf87ee4db1f34/ReadMe_IMG/Waveshare%20Cam.jpg)
 
 
