@@ -32,8 +32,9 @@ SEN0313 par DF Robot (ip67) [Digikey](https://www.digikey.fr/fr/products/detail/
 - Sortie : Valeur de distance directement disponible en UART (pas besoin de calculer le temps de vol soi-même)
 
 - Autres points forts :
-  -Livré avec un cône (bell mouth) amovible pour optimiser la portée et la directivité
-  -Résistant à la poussière, au brouillard, à la fumée (meilleure pénétration que les HC-SR04 classiques)
+
+-Livré avec un cône (bell mouth) amovible pour optimiser la portée et la directivité
+-Résistant à la poussière, au brouillard, à la fumée (meilleure pénétration que les HC-SR04 classiques)
 
 </details>
 
