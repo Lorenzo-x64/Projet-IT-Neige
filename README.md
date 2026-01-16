@@ -61,14 +61,3 @@ Autres points forts :
 <div align="right">
   <a href="#top">↑ Retour en haut</a>
 </div>
-
-## Table des matières
-
-- 📡 [Communications](#communications)
-- 🔥 [Test Emoji](#test-emoji)
-
-### 📡 Communications
-Contenu de la section comms...
-
-### 🔥 Test Emoji
-Ça marche ?
