@@ -7,6 +7,25 @@
 ![Image Alt](https://github.com/lorenzor0912/Projet-IT-Neige/blob/f1702dfe2ce56fabe681698466927644a630968b/ReadMe_IMG/SEN0313.JPG)
 
 
+- [Hardware](#hardware)
+  - [Lancer le serveur](#lancer-le-serveur)
+  - [Tester avec curl](#tester-avec-curl)
+- [Captures d'écran](#captures-décran)
+- [Contribuer](#contribuer)
+- [Licence](#licence)
+
+## Hardware
+
+
+## Prérequis
+
+- Python 3.10+
+- ...
+
+## Installation
+
+
+
 <div style="line-height: 0.9; font-family: 'Courier New', Courier, monospace; white-space: pre; color: #d0d0d0;">
 <pre>
    _____ _   _ ___  _____    _           _         
@@ -20,31 +39,6 @@
 </pre>
 </div>
 
-
-
-
-- [Présentation](#présentation)
-- [Prérequis](#prérequis)
-- [Installation](#installation)
-- [Utilisation](#utilisation)
-  - [Lancer le serveur](#lancer-le-serveur)
-  - [Tester avec curl](#tester-avec-curl)
-- [Captures d'écran](#captures-décran)
-- [Contribuer](#contribuer)
-- [Licence](#licence)
-
-## Présentation
-
-Ceci est mon super projet...
-
-## Prérequis
-
-- Python 3.10+
-- ...
-
-## Installation
-
-
 <div align="right">
-  <a href="#table-des-matières">↑ Retour en haut</a>
+  <a href="#top" style="text-decoration: none; font-size: 1.5em;">⬆ Retour en haut</a>
 </div>
