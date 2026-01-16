@@ -40,10 +40,5 @@
 </div>
 
 <div align="right">
-  <a href="#top" style="text-decoration: none; font-size: 1.5em;">⬆ Retour en haut</a>
-</div>
-
-
-<div align="right">
   <a href="#top">↑ Retour en haut</a>
 </div>
