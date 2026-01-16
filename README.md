@@ -48,6 +48,8 @@ SEN0313 par DF Robot aussi connu sous A01NYUB (identique) [DF Robot](https://www
 
 ### Carte
 
+All in One
+
 | Carte / Module                        | ESP32       | 4G              | GPS          | microSD | Batterie 18650 + charge | Prix approx. (2026) | Remarques / quand choisir                                                                 |
 |---------------------------------------|-------------|-----------------|--------------|---------|--------------------------|---------------------|-------------------------------------------------------------------------------------------|
 | **LILYGO T-A7670G (avec GPS)**        | ESP32      | LTE Cat-1      | Oui (GNSS)  | Oui    | Oui                     | 25-40 €            | Excellent choix global, bien supporté, tout intégré, idéal pour la simplicité et le prix |
