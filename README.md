@@ -12,7 +12,7 @@
 
 ### Capteur
 
-SEN0313 par DF Robot (ip67) [Digikey](https://www.digikey.fr/fr/products/detail/dfrobot/SEN0313/11202720)
+SEN0313 par DF Robot [DfRobot](https://www.dfrobot.com/product-1934.html)
 
 <details>
 
@@ -21,9 +21,13 @@ SEN0313 par DF Robot (ip67) [Digikey](https://www.digikey.fr/fr/products/detail/
 
 - Type : Capteur de distance ultrasonique étanche (waterproof & dustproof, IP67)
 
+- Etanchéité : cretification IP67
+
+- Courant : <15mA 
+
 - Plage de mesure : 28 cm à 750 cm (soit jusqu'à 7,5 mètres)
 
-- Précision : ±1 cm
+- Resolution : 1mm 
 
 - Interface de communication : UART (série asynchrone, très simple à utiliser)
 
