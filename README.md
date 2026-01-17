@@ -7,6 +7,7 @@
   - [Carte 📺](#carte)
   - [Communications 📡](#communications)
   - [Stockage 💾](#Stockage)
+  - [Batterie 🔋](#Batterie)
   - [Fonction Webcam Possible ? 🎥](#Webcam)
 - [Software 🦠](#hardware) 
 
@@ -126,6 +127,9 @@ Estimation d'espace necessaire :
   - le système doit tenir 4 mois
   - doit enregistrer   
 
+### Batterie
+
+Estimation de 
 
 ### Webcam
 
