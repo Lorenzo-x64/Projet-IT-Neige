@@ -116,6 +116,7 @@ ou
 
 - Via 4g
 - possibitlité et intéret pour relais/émetteur [meshtastic](https://meshtastic.org/) ???
+- Possibilité LoRaWan
 
 ### Stockage
 
