@@ -7,8 +7,6 @@
       media="(prefers-color-scheme: dark)" 
       srcset="https://github.com/lorenzor0912/Projet-IT-Neige/blob/0a817e1d05e45fb6e63a99a292cdd9ac2ce48b34/ReadMe_IMG/It%20neige.svg" />
     
-    <!-- Version pour le mode LIGHT (fallback + light mode) -->
-    
   <img 
       src="https://github.com/lorenzor0912/Projet-IT-Neige/blob/0a817e1d05e45fb6e63a99a292cdd9ac2ce48b34/ReadMe_IMG/It%20neige.svg" 
       alt="Logo principal" 
