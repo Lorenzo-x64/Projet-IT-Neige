@@ -1,11 +1,22 @@
 # Projet-IT-Neige ❄️🌨️
 
 <div align="center">
-  <img src="https://github.com/lorenzor0912/Projet-IT-Neige/blob/fe72028023a4363fe13b78c3d9f3f6932c6b1fcf/ReadMe_IMG/It%20neige.svg" 
-       alt="Logo" 
-       width="500" 
-       height="500" />
+  <picture>
+    <!-- Version pour le mode DARK (quand GitHub est en dark) -->
+    <source 
+      media="(prefers-color-scheme: dark)" 
+      srcset="https://github.com/lorenzor0912/Projet-IT-Neige/blob/0a817e1d05e45fb6e63a99a292cdd9ac2ce48b34/ReadMe_IMG/It%20neige.svg" />
+    
+    <!-- Version pour le mode LIGHT (fallback + light mode) -->
+    
+  <img 
+      src="https://github.com/lorenzor0912/Projet-IT-Neige/blob/0a817e1d05e45fb6e63a99a292cdd9ac2ce48b34/ReadMe_IMG/It%20neige.svg" 
+      alt="Logo principal" 
+      width="500" 
+      height="500" />
+  </picture>
 </div>
+
 
 ## Table des matières 📖
 
