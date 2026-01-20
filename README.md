@@ -1,4 +1,4 @@
-# Projet-IT-Neige ❄️🌨️
+# Capteur d'enneigement ❄️🌨️
 
 <div align="center">
   <picture>
