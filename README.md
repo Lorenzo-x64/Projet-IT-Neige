@@ -2,8 +2,8 @@
 
 <div align="center">
   <picture>
-    <!-- Version pour le mode DARK (quand GitHub est en dark) -->
-    <source 
+
+  <source 
       media="(prefers-color-scheme: dark)" 
       srcset="https://github.com/lorenzor0912/Projet-IT-Neige/blob/0a817e1d05e45fb6e63a99a292cdd9ac2ce48b34/ReadMe_IMG/It%20neige.svg" />
     
