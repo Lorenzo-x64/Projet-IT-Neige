@@ -12,8 +12,8 @@
   <img 
       src="https://github.com/lorenzor0912/Projet-IT-Neige/blob/0a817e1d05e45fb6e63a99a292cdd9ac2ce48b34/ReadMe_IMG/It%20neige.svg" 
       alt="Logo principal" 
-      width="500" 
-      height="500" />
+      width="400" 
+      height="400" />
   </picture>
 </div>
 
