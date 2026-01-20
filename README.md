@@ -1,7 +1,7 @@
 # Projet-IT-Neige ❄️🌨️
 
 <div align="center">
-  <img src="https://github.com/lorenzor0912/Projet-IT-Neige/blob/3a26d4a8eb1cb08ab78cd12ca674432d98ffe7aa/ReadMe_IMG/It%20neige.svg" 
+  <img src="https://github.com/lorenzor0912/Projet-IT-Neige/blob/fe72028023a4363fe13b78c3d9f3f6932c6b1fcf/ReadMe_IMG/It%20neige.svg" 
        alt="Logo" 
        width="180" 
        height="auto" />
