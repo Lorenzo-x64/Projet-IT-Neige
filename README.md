@@ -170,6 +170,8 @@ certains carte all in one on meme des mini camera (par ex waveshare) donc peut s
 </pre>
 </div>
 
+<img src="(https://github.com/Lorenzo-x64/Projet-IT-Neige/blob/a68dd4287c40711deb7713e88d299c58865ecca4/ReadMe_IMG/Sti%20Labs.svg)">
+
 <div align="right">
   <a href="#top">↑ Retour en haut</a>
 </div>
