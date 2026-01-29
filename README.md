@@ -161,18 +161,19 @@ certains carte all in one on meme des mini camera (par ex waveshare) donc peut s
 
 ### Matériaux
 
-| Critère                        | ASA                  | Polycarbonate (PC)   | PETG                 | Nylon                | Gagnant              |
-|--------------------------------|----------------------|----------------------|----------------------|----------------------|----------------------|
-| Résistance au froid (-30°C)    | Très bonne           | Excellente (reste souple) | Bonne                | Bonne (mais absorbe l'humidité) | **PC** ✅            |
-| Tenue longue durée (10 ans UV + intempéries) | Excellente (UV top) | Très bonne           | Moyenne (jaunit / craque) | Moyenne à bonne      | **ASA** ✅           |
-| Étanchéité / Résistance neige & humidité | Très bonne           | Bonne (mais hygroscopique) | Excellente           | Moyenne (absorbe beaucoup) | **PETG** / **ASA** (ex aequo) |
-| Facilité d'impression          | Moyenne (boîtier conseillé) | Difficile (très chaud + boîtier) | Facile               | Difficile (séchage obligatoire) | **PETG** ✅          |
-| Résistance globale chocs/froid + UV | Très bonne           | Top chocs            | Bonne                | Très bonne abrasion  | **ASA** / **PC**    |
-| **Verdict pour notre usage neigeux -30°C / 10 ans** | ⭐⭐⭐⭐½           | ⭐⭐⭐⭐½               | ⭐⭐⭐                 | ⭐⭐½                  | **ASA** ✅ (le plus équilibré) |
+| Critère                          | ASA              | PC (Polycarbonate) | PETG             | Nylon            |
+|----------------------------------|------------------|--------------------|------------------|------------------|
+| Résiste bien à -30°C (pas cassant) | ✅               | ✅✅ (très souple)  | ✅               | ✅               |
+| Durée 10 ans UV + intempéries    | ✅✅ (meilleur UV)| ✅               | ❌ (jaunit/craque après quelques années) | ❌ (dégrade si humide) |
+| Étanchéité / neige & humidité    | ✅               | ✅ (mais sèche bien) | ✅✅ (très hydrophobe) | ❌ (absorbe l'eau) |
+| Reste étanche longtemps          | ✅               | ✅               | ✅               | ❌               |
+| Facile à imprimer                | ❌ (boîtier conseillé) | ❌❌ (dur)     | ✅✅ (facile)     | ❌ (séchage obligatoire) |
+| Résistance chocs au froid        | ✅               | ✅✅ (top)         | ✅               | ✅               |
 
-**Grand gagnant global** : **ASA**  
-→ Meilleur compromis UV / intempéries / froid pour du long terme en extérieur enneigé sans trop de complications.  
-Si besoin d'un max de résistance aux chocs violents au froid extrême → **PC** est un très bon second choix (mais plus chiant à imprimer).
+**Verdict rapide**  
+✅ **ASA** → Le gagnant global pour cet usage (meilleur équilibre UV/long terme/neige sans trop de galères).  
+✅ **PC** → Pour max de solidité chocs au froid extrême (mais impression plus chiante).  
+PETG → OK si pas trop d'années ou pas plein soleil, Nylon → à éviter pour humidité/neige prolongée.
 
 
 <div style="line-height: 0.9; font-family: 'Courier New', Courier, monospace; white-space: pre; color: #d0d0d0;">
