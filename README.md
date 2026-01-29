@@ -162,11 +162,33 @@ Estimation d'espace necessaire :
 
 - On sait que:
   - le système doit tenir 4 mois
-  - doit enregistrer   
+  - toute 30 sec estimation sur 3 mois de 552 Ko
 
+**Carte SD Haute endurance**
+
+  - [Sd Sandisk Industrial XI 8Go de 85° a -40 13€ ](https://www.mouser.fr/ProductDetail/SanDisk/SDSDQAF3-008G-XI?qs=F5EMLAvA7IAdyu9puKxNsg%3D%3D)
+  - SanDisk High Endurance microSDXC
+  - Lexar microSDHC/microSDXC UHS-I High Endurance Card
+  - Samsung PRO Endurance microSDXC UHS-I U3
+  - PNY Pro Elite™ High Endurance C10 U3 V30 A2 MicroSDXC Memory Card
+  - Kingston High Endurance microSDXC95R
+  - Micro SD KIOXIA EXCERIA High Endurance UHS-I C10 R98
+
+
+
+
+
+---
 ### Batterie
 
 Estimation de 
+
+
+
+
+
+
+---
 
 ### Webcam
 
@@ -178,7 +200,16 @@ certains carte all in one on meme des mini camera (par ex waveshare) donc peut s
 
 
 
+
+---
+
+
 ### Matériaux
+
+
+
+
+---
 
 ### Comparaison filaments extrêmes : -30°C / 10 ans neige/UV/humidité ❄️⛄
 
