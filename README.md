@@ -167,13 +167,15 @@ certains carte all in one on meme des mini camera (par ex waveshare) donc peut s
 | Durée 10 ans UV + intempéries    | ✅✅ (meilleur UV)| ✅               | ❌ (jaunit/craque après quelques années) | ❌ (dégrade si humide) |
 | Étanchéité / neige & humidité    | ✅               | ✅ (mais sèche bien) | ✅✅ (très hydrophobe) | ❌ (absorbe l'eau) |
 | Reste étanche longtemps          | ✅               | ✅               | ✅               | ❌               |
-| Facile à imprimer                | ❌ (boîtier conseillé) | ❌❌ (dur)     | ✅✅ (facile)     | ❌ (séchage obligatoire) |
+| Facile à imprimer                | 🟠 Moyen | ❌❌ (dur)     | ✅✅ (facile)     | ❌ (séchage obligatoire) |
 | Résistance chocs au froid        | ✅               | ✅✅ (top)         | ✅               | ✅               |
 
 **Verdict rapide**  
 ✅ **ASA** → Le gagnant global pour cet usage (meilleur équilibre UV/long terme/neige sans trop de galères).  
 ✅ **PC** → Pour max de solidité chocs au froid extrême (mais impression plus chiante).  
 PETG → OK si pas trop d'années ou pas plein soleil, Nylon → à éviter pour humidité/neige prolongée.
+
+A noter que des filaments dit "chargés" existes ex: ASA-CF (Asa chargé fibre carbone)
 
 
 <div style="line-height: 0.9; font-family: 'Courier New', Courier, monospace; white-space: pre; color: #d0d0d0;">
