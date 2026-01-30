@@ -493,3 +493,7 @@ Ce projet est sous licence **GNU General Public License v3.0** - voir le fichier
 <div align="right">
   <a href="#top">↑ Retour en haut</a>
 </div>
+
+<div align="right">
+  <a href="#top">↑ Raccoursi tres rapide super mega rapide</a>
+</div>
