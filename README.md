@@ -20,7 +20,7 @@
     <img src="https://img.shields.io/badge/Température--30°C_à_+50°C-blue?style=flat-square" alt="Température"/>
     <img src="https://img.shields.io/badge/Portée-7.5m-green?style=flat-square" alt="Portée"/>
     <img src="https://img.shields.io/badge/Autonomie-4_mois-orange?style=flat-square" alt="Autonomie"/>
-    <img src="https://img.shields.io/badge/Étanchéité-IP67-lightblue?style=flat-square" alt="IP67"/>
+    <img src="https://img.shields.io/badge/Étanchéité-IP66-lightblue?style=flat-square" alt="IP66"/>
   </p>
 </div>
 
