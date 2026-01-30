@@ -485,11 +485,11 @@ Ce projet est sous licence **GNU General Public License v3.0** - voir le fichier
   height="600" />
 
 <p align="center">
-  <strong>⭐ Si ce projet vous plaît, n'hésitez pas à lui donner une étoile ! ⭐</strong>
+  <strong>Si tu est arrivé jusque la bah ok!</strong>
 </p>
 
 </div>
 
 <div align="right">
-  <a href="#top">⬆️ Retour en haut</a>
+  <a href="#top">↑ Retour en haut</a>
 </div>
