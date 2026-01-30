@@ -247,7 +247,7 @@ Recommandation : Carte SD 8 Go minimum (marge confortable × 200,000)
 
 ### 🔋 Alimentation
 
-#### Stratégie d'autonomie cible : **4 mois**
+#### Autonomie cible : **4 mois**
 
 <details>
 <summary><strong>⚡ Calcul de consommation détaillé</strong></summary>
@@ -311,9 +311,7 @@ Consommation 4 mois :
 
 </details>
 
-**Recommandation finale** : LiFePO4 12V 20Ah avec protection thermique, largement suffisant pour 4+ mois avec LoRa/Meshtastic.
-
----
+**Recommandation finale** : Bah je sais pas!!!
 
 ### 🏗️ Matériaux & Boîtier
 
@@ -389,19 +387,19 @@ Le boîtier doit résister à des conditions extrêmes : neige, UV, humidité, t
    - **Meilleur compromis** : rigidité / UV / froid / humidité
    - Idéal pour pièces structurelles exposées
    - Coût : ~40-60€/kg
-   - **⚠️ Attention** : Enceinte chauffée + buse renforcée requise
+   - **⚠️ Attention** : Enceinte chauffée + buse renforcée requise (fivre de carbone bien abbrasif)
 
-2. **🥈 ASA standard** (Alternative économique)
+2. **🥈 ASA standard** (Alternative économique) & (Probablement la meilleur option)
    - Si pas besoin de renfort carbone (pièces non-contraintes)
    - Résistance UV identique à l'ASA-CF
    - Plus facile à imprimer que la version CF
-   - Coût : ~25-35€/kg
+   - Coût : ~25-35€/kg 
 
-3. **🥉 PETG-CF** (Compromis sans enceinte)
+3. **🥉 PETG-CF** (Compromis sans enceinte) & (Probablement la deuxieme meilleur option)
    - Alternative si imprimante sans enceinte chauffée
-   - Bon pour pièces internes du boîtier
+   - Bon pour pièces internes du boitier
    - Hydrophobe excellent
-   - Coût : ~35-50€/kg
+   - Coût : ~35-50€/kg (ca pique un peu en effet pour du petg)
 
 ##### ❌ À ÉVITER en extérieur
 
@@ -415,6 +413,8 @@ Le boîtier doit résister à des conditions extrêmes : neige, UV, humidité, t
 
 ## 💻 Software
 
+Au chomage technique ou en vacance?
+
 ### 🔧 Fonctionnalités prévues
 
 - [ ] **Acquisition de données**
@@ -423,7 +423,7 @@ Le boîtier doit résister à des conditions extrêmes : neige, UV, humidité, t
   - Moyennage sur N échantillons (filtrage bruit)
 
 - [ ] **Gestion de l'énergie**
-  - Deep sleep ESP32 entre mesures (4h)
+  - Deep sleep ESP32 entre mesures (4h) 
   - Wake-up timer configurable
   - Surveillance batterie (ADC + diviseur pont)
 
@@ -435,7 +435,7 @@ Le boîtier doit résister à des conditions extrêmes : neige, UV, humidité, t
 - [ ] **Communication**
   - Envoi périodique via LoRaWAN ou Meshtastic
   - Protocole configuré selon gateway disponible
-  - Retry logic avec backoff exponentiel
+  - Retry logic avec backoff exponentiel (en gros c ton tel quand il se bloque c exponantiel)
 
 ---
 
