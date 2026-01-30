@@ -24,7 +24,6 @@
   - [Communications 📡](#communications)
   - [Stockage 💾](#Stockage)
   - [Batterie 🔋](#Batterie)
-  - [Fonction Webcam Possible ? 🎥](#Webcam)
   - [Matériaux](#Matériaux)
 - [Software 🦠](#hardware) 
 
@@ -109,22 +108,6 @@ Estimation de
 
 
 
-
-
-
----
-
-### Webcam
-
-certains carte all in one on meme des mini camera (par ex waveshare) donc peut se reveler interessant
-
-[Waveshare Demo](https://www.youtube.com/watch?v=z_u_RoW-mEs)
-
-![Image Alt](https://github.com/lorenzor0912/Projet-IT-Neige/blob/d28ecf070d6103b8d8a0e5f1bddaf87ee4db1f34/ReadMe_IMG/Waveshare%20Cam.jpg)
-
-
-
-
 ---
 
 
@@ -137,30 +120,27 @@ certains carte all in one on meme des mini camera (par ex waveshare) donc peut s
 
 ### Comparaison filaments extrêmes : -30°C / 10 ans neige/UV/humidité ❄️⛄
 
-| Critère                              | ASA-CF       | PETG-CF      | PET          | ABS          | PLA          | ASA (std)    | PC           | PETG (std)   | Nylon (PA)   |
-|--------------------------------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|
-| Résiste bien à -30°C (pas cassant)   | ✅✅         | ✅✅         | ✅           | ✅           | ❌❌         | ✅✅         | ✅✅ (souplissime) | ✅✅         | ✅✅ (flexible) |
-| Durée 10 ans UV + intempéries/neige  | ✅✅ (UV top + CF boost) | ✅ (bon UV, CF aide) | ❌ (dégrade) | ❌ (jaunit/craque) | ❌❌ (détruit vite) | ✅✅ (UV leader) | ✅ (bon, mais moins UV) | ❌ (jaunit après années) | ❌ / ✅ (si PA12, bon si protégé) |
-| Étanchéité / neige & humidité        | ✅✅ (~0.3-0.5% absorption) | ✅✅ (hydrophobe) | ✅           | ✅           | ❌ (gonfle)  | ✅           | ✅ (mais hygro) | ✅✅ (très hydrophobe) | ❌ (absorbe beaucoup, sauf PA12) |
-| Reste étanche/dimension stable longtemps | ✅✅         | ✅✅         | ✅           | ✅ (shrink)  | ❌           | ✅✅         | ✅           | ✅✅         | ❌ (sauf PA12) |
-| Facile à imprimer                    | ❌ (boîtier + nozzle hard) | ❌ (abrasif) | ✅           | ❌ (warping) | ✅✅ (facile) | ❌ (boîtier) | ❌❌ (dur)   | ✅✅ (facile) | ❌ (séchage + boîtier) |
-| Rigidité / résistance chocs au froid | ✅✅ (très rigide) | ✅✅ (boost CF) | ✅           | ✅           | ✅ / ❌ (cassant) | ✅           | ✅✅ (top chocs) | ✅           | ✅✅ (abrasion + flex) |
+| Critère | ASA-CF | PETG-CF | PET | ABS | PLA | ASA (std) | PC | PETG (std) | Nylon (PA) |
+|--------------------------------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|--------------| 
+| **Résistance au froid (-30°C)** | 🟢🟢 | 🟢🟢 | 🟢 | 🟢 | 🔴🔴 | 🟢🟢 | 🟢🟢 | 🟢🟢 | 🟢🟢 |
+| **Durabilité UV (10 ans ext.)** | 🟢🟢 | 🟢 | 🔴 | 🔴 | 🔴🔴 | 🟢🟢 | 🟡 | 🟡 | 🟡 |
+| **Résistance à l'humidité** | 🟢🟢 | 🟢🟢 | 🟢 | 🟢 | 🔴 | 🟢🟢 | 🟡 | 🟢🟢 | 🔴 |
+| **Stabilité dimensionnelle** | 🟢🟢 | 🟢🟢 | 🟢 | 🟡 | 🔴 | 🟢🟢 | 🟢 | 🟢🟢 | 🔴 |
+| **Facilité d'impression** | 🔴 | 🔴 | 🟢 | 🟡 | 🟢🟢 | 🟡 | 🔴🔴 | 🟢🟢 | 🔴 |
+| **Résistance mécanique** | 🟢🟢 | 🟢🟢 | 🟢 | 🟢 | 🟡 | 🟢 | 🟢🟢 | 🟢 | 🟢🟢 |
 
-**Verdict rapide pour ton usage (-30°C, neige, 10 ans dehors)**  
-✅ **ASA-CF** → Le gagnant global : UV imbattable (10+ ans dehors sans jaunir/craquer), faible absorption humidité, tient -30°C sans casser, rigidité boostée par CF. Idéal pour pièces exposées neige/soleil (ex: boîtiers, supports extérieurs).  
+## Légende
+- 🟢🟢 Excellent
+- 🟢 Bon
+- 🟡 Moyen / Conditions requises
+- 🔴 Faible / Déconseillé
+- 🔴🔴 Très faible / À éviter
 
-✅ **PETG-CF** → Très bon compromis : super hydrophobe (ne gonfle pas en neige), flexible au froid, UV correct (mieux que PETG std), facile relatif. Moins cher/simple que ASA-CF.  
+### Résistance au froid
+- **PLA** : Devient cassant en dessous de 0°C
+- **PC & Nylon** : Restent flexibles même à -30°C
 
-✅ **PC** → Si priorises chocs violents au froid extrême (reste souple, pas cassant).  
-
-✅ **ASA (std)** → Si pas besoin de CF ultra-rigide, c'est le roi UV/long terme sans complications.  
-
-❌ **PLA / ABS / PET** → À éviter pour 10 ans dehors ou froid extrême (cassent/jaunissent/dégradent).  
-
-❌ **Nylon** → OK si PA12 (faible humidité), sinon absorbe trop l'eau en neige → gonfle/déforme.  
-
-Pour max étanchéité/UV sur 10 ans, coating époxy ou peinture UV après impression. ASA-CF + coating = quasi-indestructible en environnement neigeux !
-
+### Dur
 
 <div style="line-height: 0.9; font-family: 'Courier New', Courier, monospace; white-space: pre; color: #d0d0d0;">
 <pre>
