@@ -36,10 +36,17 @@ ok gps pas de micro sd donc module externe comme https://www.waveshare.com/micro
 https://www.passion-radio.fr/module/ttgo-sx1276-2419.html
 oui gps non carte sd meme qu'au dessus ATTENTION CARTE VIELLISSANTE MESHTASTIC CONSEILLE MODELE PLUS RECENT
 
+pur finir heltec v4 https:
+
+[DFRobot](https://www.amazon.fr/-/en/dp/B0G24ZJ75L?crid=ID44N7A8V0U0&dib=eyJ2IjoiMSJ9.cLUM8BE_x4wBvMF4vnH998QRvddFub9LF_07_KiRJfnx5brVJxHmIlbKEIJShKAdK1d7EJ_VCMVHbZUsFotjPPV39WEFSPRTWqk24WuwVoC8i0b-0a3K9z1FUOK1fvDXTtWw055N5W9gXOK2GiMacn5QTxIM0fZpMJ9SG-mICtnsVS7c_bY35lLomO1M_Jo9j2XyTqIG2ucwgTN4wglz8lfCKSMAn5_Oh-yUJZfeqdGOq4BUYyivlL0ibzgqJzvbjpZiqijQVwQGihjoF1fMK8L7UczH1_sohhRMCvH0lzc.0s1PGfpkV6Ep6MG-BXGkwLOeOFvzfxw2zLzfgexDOe8&dib_tag=se&keywords=heltec+v4+868&qid=1770144402&sprefix=heltec+v4+868%2Caps%2C235&sr=8-1)
+
+(a noter manque gps et carte sd)
+
 
 Pour le capteur principal  https://www.dfrobot.com/product-1934.html
 
 carte sd Carte SD 8Go Industrial -40 85 deg
 
 
-module gps
+module gps si besoin ref: u-blox NEO-6M (très courant) une vightaine d'euro
+  - precision extreme : Module GNSS 5 click MIKROE2670 pour géolocalisation précise
