@@ -50,7 +50,7 @@ Bien que LoRa puisse techniquement fonctionner sur 8 bandes différentes (433 MH
 
 ### Cartes LoRa compatibles Meshtastic
 
-#### TTGO T-Echo
+#### ~~TTGO T-Echo~~
 - Lien : https://www.passion-radio.fr/ordinateur-miniature/techo-2644.html
 - GPS : Oui (module multi-GNSS L76K intégré)
 - Carte micro SD : Non
@@ -63,7 +63,7 @@ Bien que LoRa puisse techniquement fonctionner sur 8 bandes différentes (433 MH
 - Carte micro SD : Non (nécessite module externe comme https://www.waveshare.com/micro-sd-storage-board.htm)
 - **Statut : Retenue** (avec module SD externe)
 
-#### TTGO LoRa32 SX1276
+#### ~~TTGO LoRa32 SX1276~~
 - Lien : https://www.passion-radio.fr/module/ttgo-sx1276-2419.html
 - GPS : Oui
 - Carte micro SD : Non (nécessite module externe)
@@ -76,7 +76,7 @@ Bien que LoRa puisse techniquement fonctionner sur 8 bandes différentes (433 MH
 - Carte micro SD : Non
 - **Statut : Retenue** (nécessite ajout GPS et carte SD)
 
-#### Heltec Mesh Node T114
+#### ~~Heltec Mesh Node T114~~
 - Lien : https://heltec.org/project/mesh-node-t114/
 - Puce : Nordic (très basse consommation)
 - **Statut : Très difficile à trouver**
