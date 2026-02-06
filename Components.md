@@ -89,7 +89,7 @@ Bien que LoRa puisse techniquement fonctionner sur 8 bandes différentes (433 MH
 - Capteur principal : https://www.dfrobot.com/product-1934.html
 
 ### Stockage
-- Carte SD 8 Go Industrial (-40°C à +85°C)
+- Carte SD 8 Go SanDisk Industrial (-40°C à +85°C)
 
 ### Modules GPS
 
