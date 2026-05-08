@@ -243,13 +243,13 @@ Légende : 🟢🟢 Excellent · 🟢 Bon · 🟡 Moyen · 🔴 Faible · 🔴�
 
 | Composant | Qté | Prix unitaire | Lien |
 |-----------|-----|---------------|------|
-| Capteur SEN0313 ou | 1 | ~30€ | [none](https://www..html) |
-| ESP32-DevKitC | 1 | ~5€ | [none](https://www..com) |
-| Module LoRa  | 1 | ~15–25€ | [none](https://www..fr) |
-| Carte SD 8Go Industrial | 1 | ~13€ | [none](https://www..fr) |
+| Capteur SEN0313 ou | 1 | ~30€ | [none](https://) |
+| ESP32-DevKitC | 1 | ~5€ | [none](https://) |
+| Module LoRa  | 1 | ~15–25€ | [none](https://) |
+| Carte SD 8Go Industrial | 1 | ~13€ | [none](https://) |
 | Batterie LiFePO4 12V 20Ah | 1 | ~100€ | [ none] |
 | Boîtier ASA-CF (impression) | 1 | ~15€ (filament) | À imprimer |
-| Connectique étanche | Divers | ~10€ | [none](https://fr.com) |
+| Connectique étanche | Divers | ~10€ | [none](https://) |
 | **TOTAL** | | **~a calculer** | |
 
 ---
