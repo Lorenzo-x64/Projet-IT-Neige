@@ -56,7 +56,7 @@ Station de mesure d'enneigement autonome conçue pour fonctionner dans des condi
 
 ## Hardware
 
-### Capteur ultrasonique
+### Capteur Principal
 
 **Modèle** : SEN0313 / A01NYUB ou (JSN-SR04T possible)
 
