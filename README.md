@@ -58,7 +58,7 @@ Station de mesure d'enneigement autonome conçue pour fonctionner dans des condi
 
 ### Capteur Principal
 
-**Modèle** : SEN0313 / A01NYUB ou (JSN-SR04T possible)
+**Modèle** : SEN0313 / A01NYUB ou
 
 ![Capteur SEN0313](https://github.com/lorenzor0912/Projet-IT-Neige/blob/f1702dfe2ce56fabe681698466927644a630968b/ReadMe_IMG/SEN0313.JPG)
 
@@ -91,6 +91,8 @@ Station de mesure d'enneigement autonome conçue pour fonctionner dans des condi
 - [Guide officiel DF Robot](https://www.dfrobot.com/product-1934.html)
 - [Datasheet PDF](https://wiki.dfrobot.com/A01NYUB%20Waterproof%20Ultrasonic%20Sensor%20SKU:%20SEN0313)
 
+A noter que nous étudions un éventuelle compatibilité du JSN-SR04T.
+
 </details>
 
 ---
@@ -98,9 +100,10 @@ Station de mesure d'enneigement autonome conçue pour fonctionner dans des condi
 ### Microcontrôleur
 
 
-**Référence suggérée** : ESP32-DevKitC ou ESP32-WROVER pour stockage PSRAM additionnel ou module basse consomation 
+**Référence suggérée** : ESP32-DevKitC ou ESP32-WROVER pour stockage PSRAM additionnel ou module basse consomation.
+Nous sommes partis sur un module basse consomation: uPesy ESP32 Wroom Low Power 
 
-ATTENTION! NE SONT PAS RECCOMANDE DES MODULES TOUS EN UN STYLE HELTEC LILYGO OU WAVESHARE (problème de librairies constaté sur heltec pour nous par ex)
+ATTENTION! NE SONT PAS RECCOMANDE DES MODULES TOUS EN UN STYLE HELTEC car nous avons eu des problèmes avec ce types de cartes durant la programmation.
 
 ---
 
@@ -110,7 +113,7 @@ Le système utilise des technologies basse consommation pour maximiser l'autonom
 
 #### LoRaWAN (mode principal retenu)
 
-- **Module** : RFM95W ou LILYGO T-Beam
+- **Module** : Ebyte E220-900T22D
 - Très faible consommation (~20–50 mA en transmission)
 - Portée longue distance (>10 km en terrain dégagé)
 - Pas d'abonnement cellulaire, idéal pour mesures espacées (4h)
@@ -140,16 +143,16 @@ Le système utilise des technologies basse consommation pour maximiser l'autonom
 
 </details>
 
-**Recommandation** : LoRaWAN en priorité pour l'efficacité énergétique, Meshtastic pour les déploiements multi-stations en montagne.
+**Recommandation** : LoRaWAN en priorité pour l'efficacité énergétique.
 
 ---
 
 ### Stockage
 
-**Solution** : Carte microSD haute endurance
+**Solution** : Carte microSD
 
-- Fréquence de mesure : 1 toutes les heures
-- Format : CSV avec timestamp + distance + température
+- Fréquence de mesure : Variable
+- Format : CSV avec timestamp + logs d'autres capteurs
 
 ---
 
@@ -211,7 +214,7 @@ Légende : 🟢🟢 Excellent · 🟢 Bon · 🟡 Moyen · 🔴 Faible · 🔴�
 
 ## Software
 
-Le 13/03 Premier code fonctionel a prévoir une implémentation d'ecran tactile et de module lorawan Ebyte
+
 
 ### Fonctionnalités prévues
 
