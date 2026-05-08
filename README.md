@@ -44,14 +44,13 @@ Station de mesure d'enneigement autonome conçue pour fonctionner dans des condi
 
 | Caractéristique | Spécification |
 |-----------------|---------------|
-| Plage de mesure | 30 cm à 750 cm (7,5 m) |
 | Résolution | +-1 cm |
 | Température d'opération | -30°C à +50°C |
 | Étanchéité | IP66 |
-| Autonomie |  mois (mode normal) |
-| Fréquence de mesure | Configurable (défaut : 1 heures) |
+| Autonomie |  mois (théorique) |
+| Fréquence de mesure | Configurable |
 | Connectivité | LoRaWAN |
-| Stockage local | Carte SD haute endurance |
+| Stockage local | Carte SD |
 
 ---
 
