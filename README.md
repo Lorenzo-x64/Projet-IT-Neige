@@ -15,14 +15,8 @@
     <img src="https://img.shields.io/badge/Autonomie-4_mois-orange?style=flat-square" alt="Autonomie"/>
     <img src="https://img.shields.io/badge/Étanchéité-IP66-lightblue?style=flat-square" alt="IP66"/>
   </p>
-  <a href="https://your-website-link.com" target="_blank" style="display:inline-flex;align-items:stretch;height:28px;border-radius:4px;overflow:hidden;font-family:DejaVu Sans,Verdana,sans-serif;font-size:11px;text-decoration:none;">
-    <div style="background:#6B7280;display:flex;align-items:center;padding:0 10px;">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <path d="M5 7h1a2 2 0 0 0 2-2 1 1 0 0 1 1-1h6a1 1 0 0 1 1 1 2 2 0 0 0 2 2h1a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2z"/>
-        <circle cx="12" cy="13" r="3"/>
-      </svg>
-    </div>
-    <div style="background:#8B5CF6;display:flex;align-items:center;padding:0 10px;color:#fff;font-weight:500;white-space:nowrap;">View Live Gallery</div>
+  <a href="https://your-website-link.com" target="_blank">
+    <img src="https://img.shields.io/badge/%20-View%20Live%20Gallery-8B5CF6?style=flat-square&labelColor=6B7280&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTUgN2gxYTIgMiAwIDAgMCAyLTIgMSAxIDAgMCAxIDEtMWg2YTEgMSAwIDAgMSAxIDEgMiAyIDAgMCAwIDIgMmgxYTIgMiAwIDAgMSAyIDJ2OWEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY5YTIgMiAwIDAgMSAyLTJ6Ii8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMyIgcj0iMyIvPjwvc3ZnPg==" alt="View Live Gallery"/>
   </a>
 </div>
 
