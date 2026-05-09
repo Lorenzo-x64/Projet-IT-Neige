@@ -16,7 +16,7 @@
     <img src="https://img.shields.io/badge/Étanchéité-IP66-lightblue?style=flat-square" alt="IP66"/>
   </p>
   <a href="https://lorenzo-x64.github.io/" target="_blank">
-    <img src="https://img.shields.io/badge/%20-View%20Live%20Gallery-8B5CF6?style=flat-square&labelColor=6B7280&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTUgN2gxYTIgMiAwIDAgMCAyLTIgMSAxIDAgMCAxIDEtMWg2YTEgMSAwIDAgMSAxIDEgMiAyIDAgMCAwIDIgMmgxYTIgMiAwIDAgMSAyIDJ2OWEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY5YTIgMiAwIDAgMSAyLTJ6Ii8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMyIgcj0iMyIvPjwvc3ZnPg==" alt="View Gallery"/>
+    <img src="https://img.shields.io/badge/%20-View%20Gallery-8B5CF6?style=flat-square&labelColor=6B7280&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTUgN2gxYTIgMiAwIDAgMCAyLTIgMSAxIDAgMCAxIDEtMWg2YTEgMSAwIDAgMSAxIDEgMiAyIDAgMCAwIDIgMmgxYTIgMiAwIDAgMSAyIDJ2OWEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY5YTIgMiAwIDAgMSAyLTJ6Ii8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMyIgcj0iMyIvPjwvc3ZnPg==" alt="View Gallery"/>
   </a>
 </div>
 
