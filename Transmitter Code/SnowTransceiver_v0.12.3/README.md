@@ -317,4 +317,3 @@ The serial monitor prints a status banner every 5 seconds.
 
 ## 9. License
 
-Project is yours. Third-party libraries keep their respective licences (listed in `platformio.ini`).
