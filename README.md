@@ -1,26 +1,21 @@
-<div align="center">
+<h1 align="center">Snow Depth Sensor</h1>
 
-  # Snow Depth Sensor
-
-</div>
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/lorenzor0912/Projet-IT-Neige/blob/0a817e1d05e45fb6e63a99a292cdd9ac2ce48b34/ReadMe_IMG/It%20neige.svg" />
-    <img src="https://github.com/lorenzor0912/Projet-IT-Neige/blob/0a817e1d05e45fb6e63a99a292cdd9ac2ce48b34/ReadMe_IMG/It%20neige.svg" alt="Logo principal" width="400" height="400" />
+    <img src="https://github.com/lorenzor0912/Projet-IT-Neige/blob/0a817e1d05e45fb6e63a99a292cdd9ac2ce48b34/ReadMe_IMG/It%20neige.svg" alt="Main logo" width="400" height="400" />
   </picture>
-  <p><strong>Solution autonome de mesure d'enneigement pour environnements extrêmes</strong></p>
+  <p><strong>Standalone snow depth measurement solution for extreme environments</strong></p>
   <p>
-    <img src="https://img.shields.io/badge/Température--30°C_à_+50°C-blue?style=flat-square" alt="Température"/>
-    <img src="https://img.shields.io/badge/Portée-7.5m-green?style=flat-square" alt="Portée"/>
-    <img src="https://img.shields.io/badge/Autonomie-4_mois-orange?style=flat-square" alt="Autonomie"/>
-    <img src="https://img.shields.io/badge/Étanchéité-IP66-lightblue?style=flat-square" alt="IP66"/>
+    <img src="https://img.shields.io/badge/Temperature--30°C_to_+50°C-blue?style=flat-square" alt="Temperature"/>
+    <img src="https://img.shields.io/badge/Range-7.5m-green?style=flat-square" alt="Range"/>
+    <img src="https://img.shields.io/badge/Battery_Life-4_months-orange?style=flat-square" alt="Battery Life"/>
+    <img src="https://img.shields.io/badge/Waterproof-IP66-0ea5e9?style=flat-square" alt="IP66"/>
   </p>
   <a href="https://lorenzo-x64.github.io/" target="_blank">
     <img src="https://img.shields.io/badge/%20-View%20Gallery-8B5CF6?style=flat-square&labelColor=6B7280&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTUgN2gxYTIgMiAwIDAgMCAyLTIgMSAxIDAgMCAxIDEtMWg2YTEgMSAwIDAgMSAxIDEgMiAyIDAgMCAwIDIgMmgxYTIgMiAwIDAgMSAyIDJ2OWEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY5YTIgMiAwIDAgMSAyLTJ6Ii8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMyIgcj0iMyIvPjwvc3ZnPg==" alt="View Gallery"/>
   </a>
 </div>
-
----
 
 ## Table des matières
 
