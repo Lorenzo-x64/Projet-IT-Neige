@@ -228,7 +228,7 @@ This project is released under the **GNU General Public License v3.0** — see t
 
 ### Developed by
 
-<img src="https://github.com/Lorenzo-x64/Projet-IT-Neige/blob/a68dd4287c40711deb7713e88d299c58865ecca4/ReadMe_IMG/Sti%20Labs.svg" alt="Sti2D Labs logo" width="600" height="600" />
+<img src="https://github.com/Lorenzo-x64/Snow-Depth-Sensor/blob/f0ce491dcf3d831aa2e25147188997d186dc494c/Img/Sti%20Labs.svg" alt="Sti2D Labs logo" width="600" height="600" />
 
 <p><strong>Thank you!</strong></p>
 
