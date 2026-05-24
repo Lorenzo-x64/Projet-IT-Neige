@@ -1,275 +1,239 @@
-<div align="center">
-
-  # Snow Depth Sensor
-
-</div>
+<a id="top"></a>
+<h1 align="center">Snow Depth Sensor</h1>
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/lorenzor0912/Projet-IT-Neige/blob/0a817e1d05e45fb6e63a99a292cdd9ac2ce48b34/ReadMe_IMG/It%20neige.svg" />
-    <img src="https://github.com/lorenzor0912/Projet-IT-Neige/blob/0a817e1d05e45fb6e63a99a292cdd9ac2ce48b34/ReadMe_IMG/It%20neige.svg" alt="Logo principal" width="400" height="400" />
+    <img src="https://github.com/lorenzor0912/Projet-IT-Neige/blob/0a817e1d05e45fb6e63a99a292cdd9ac2ce48b34/ReadMe_IMG/It%20neige.svg" alt="Main logo" width="400" height="400" />
   </picture>
-  <p><strong>Solution autonome de mesure d'enneigement pour environnements extrêmes</strong></p>
+  <br/><br/>
   <p>
-    <img src="https://img.shields.io/badge/Température--30°C_à_+50°C-blue?style=flat-square" alt="Température"/>
-    <img src="https://img.shields.io/badge/Portée-7.5m-green?style=flat-square" alt="Portée"/>
-    <img src="https://img.shields.io/badge/Autonomie-4_mois-orange?style=flat-square" alt="Autonomie"/>
-    <img src="https://img.shields.io/badge/Étanchéité-IP66-lightblue?style=flat-square" alt="IP66"/>
+    <img src="https://img.shields.io/badge/Status-Active-22c55e?style=flat-square" alt="Status"/>
+    <img src="https://img.shields.io/badge/License-GPL_v3-blue?style=flat-square" alt="License"/>
+    <img src="https://img.shields.io/github/last-commit/lorenzor0912/Projet-IT-Neige?style=flat-square&color=blueviolet" alt="Last commit"/>
+    <img src="https://img.shields.io/github/stars/lorenzor0912/Projet-IT-Neige?style=flat-square&color=ffd700" alt="Stars"/>
+    <img src="https://img.shields.io/github/v/release/lorenzor0912/Projet-IT-Neige?style=flat-square" alt="Release"/>
   </p>
-  <a href="https://lorenzo-x64.github.io/" target="_blank">
-    <img src="https://img.shields.io/badge/%20-View%20Gallery-8B5CF6?style=flat-square&labelColor=6B7280&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTUgN2gxYTIgMiAwIDAgMCAyLTIgMSAxIDAgMCAxIDEtMWg2YTEgMSAwIDAgMSAxIDEgMiAyIDAgMCAwIDIgMmgxYTIgMiAwIDAgMSAyIDJ2OWEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY5YTIgMiAwIDAgMSAyLTJ6Ii8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMyIgcj0iMyIvPjwvc3ZnPg==" alt="View Gallery"/>
-  </a>
+  <p>
+    <img src="https://img.shields.io/badge/MCU-ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32"/>
+    <img src="https://img.shields.io/badge/Firmware-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++"/>
+    <img src="https://img.shields.io/badge/Built_with-PlatformIO-FF7F00?style=flat-square&logo=platformio&logoColor=white" alt="PlatformIO"/>
+    <img src="https://img.shields.io/badge/CAD-Fusion_360-F36F21?style=flat-square&logo=autodesk&logoColor=white" alt="Fusion 360"/>
+    <img src="https://img.shields.io/badge/CAD-NX_Siemens-009999?style=flat-square&logo=siemens&logoColor=white" alt="NX Siemens"/>
+  </p>
+  <p>
+    <img src="https://img.shields.io/badge/Temperature--30°C_to_+50°C-blue?style=flat-square" alt="Temperature"/>
+    <img src="https://img.shields.io/badge/Range-7.5m-green?style=flat-square" alt="Range"/>
+    <img src="https://img.shields.io/badge/Battery_Life-4_months-orange?style=flat-square" alt="Battery Life"/>
+    <img src="https://img.shields.io/badge/Waterproof-IP66-0ea5e9?style=flat-square" alt="IP66"/>
+  </p>
+<a href="https://lorenzo-x64.github.io/" target="_blank"><img src="https://img.shields.io/badge/%20-View%20Gallery-8B5CF6?style=flat-square&labelColor=6B7280&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTUgN2gxYTIgMiAwIDAgMCAyLTIgMSAxIDAgMCAxIDEtMWg2YTEgMSAwIDAgMSAxIDEgMiAyIDAgMCAwIDIgMmgxYTIgMiAwIDAgMSAyIDJ2OWEyIDIgMCAwIDEtMiAySDVhMiAyIDAgMCAxLTItMlY5YTIgMiAwIDAgMSAyLTJ6Ii8+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMyIgcj0iMyIvPjwvc3ZnPg==" alt="View Gallery"/></a>
+  <a href="https://lorenzo-x64.github.io/Snow-Esp-Flasher.github.io/" target="_blank"><img src="https://img.shields.io/badge/%20-Online%20Flasher-F59E0B?style=flat-square&labelColor=6B7280&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTQgMTRhMSAxIDAgMCAxLS43OC0xLjYzbDkuOS0xMC4yYS41LjUgMCAwIDEgLjg2LjQ2bC0xLjkyIDYuMDJBMSAxIDAgMCAwIDEzIDEwaDdhMSAxIDAgMCAxIC43OCAxLjYzbC05LjkgMTAuMmEuNS41IDAgMCAxLS44Ni0uNDZsMS45Mi02LjAyQTEgMSAwIDAgMCAxMSAxNHoiLz48L3N2Zz4=" alt="Online Flasher"/></a>
+  <a href="https://www.printables.com/model/1731900-esp32-driven-snow-depth-sensor-with-lora-transmiss" target="_blank"><img src="https://img.shields.io/badge/%20-3D%20Files-FA6831?style=flat-square&labelColor=6B7280&logo=printables&logoColor=white" alt="3D Files"/></a>
 </div>
 
----
 
-## Table des matières
 
-- [Vue d'ensemble](#vue-densemble)
+## Table of Contents
+
+- [Overview](#overview)
 - [Hardware](#hardware)
-  - [Capteur Principal](#capteur-principal)
-  - [Microcontrôleur](#microcontrôleur)
-  - [Stockage](#stockage)
+  - [Main Sensor](#main-sensor)
+  - [Microcontroller](#microcontroller)
   - [Communications](#communications)
-  - [Alimentation](#alimentation)
-  - [Matériaux & Boîtier](#matériaux--boîtier)
+  - [Storage](#storage)
+  - [Power](#power)
 - [Software](#software)
-- [Installation & Déploiement](#installation--déploiement)
-- [Licence](#licence)
+- [Installation & Deployment](#installation--deployment)
+- [License](#license)
 
 ---
 
-## Vue d'ensemble
+## Overview
 
-Station de mesure d'enneigement autonome conçue pour fonctionner dans des conditions climatiques (jusqu'à -30°C) et piloté à distance.
+Autonomous snow depth measurement station designed to operate in harsh climatic conditions (down to -30°C) and to be controlled remotely.
 
-| Caractéristique | Spécification |
-|-----------------|---------------|
-| Résolution | +-1 cm |
-| Température d'opération | -30°C à +50°C |
-| Étanchéité | IP66 |
-| Autonomie |  mois (théorique) |
-| Fréquence de mesure | Configurable |
-| Connectivité | LoRaWAN |
-| Stockage local | Carte SD |
+| Feature | Specification |
+|---------|---------------|
+| Resolution | ±1 cm |
+| Operating temperature | -30°C to +50°C |
+| Ingress protection | IP66 |
+| Battery life | 4 months (theoretical) |
+| Measurement frequency | Configurable |
+| Connectivity | LoRaWAN |
+| Local storage | microSD card |
+| Fall Detection | Accelerometer |
+| Increased Ultrasonic sensor accuracy | Temp Sensor |
+| GUI | Simple To use good looking user interface |
+
+
+
+This project ultimately evolved into two versions: a "basic" prototype and an "advanced" one. 
+
+Both share the same goal but differ in complexity and features. Our professor initially specified a simple yet efficient base design: PVC tubing with 3D-printed top and bottom end caps. At first, I wasn’t sold on it. I worried that routing components inside a cylindrical tube would make space management tricky, and the overall design felt a bit too amateurish. That’s why I decided to take it a step further and develop a second version, packing it with more advanced electronic and physical features.
+
+The PVC-based prototype includes only the core features our professor required: GPS, an SD card logger, and the main ultrasonic sensor. The only addition beyond the brief is a simple user interface to control and monitor the device something we added for practicality, even though it wasn't explicitly requested.
+
+The advanced version builds on that foundation. It retains all the base features but adds LoRa transmission for long-range communication, an accelerometer for fall detection, and a temperature sensor. The temperature data isn't just extra information—it's used to apply real-time corrections to the ultrasonic readings, improving accuracy since sound speed varies with air temperature.
+
+And physically, instead of the PVC tube design, this version uses a custom-designed enclosure: more compact, better organized internally, and built to accommodate the extra electronics while staying robust and serviceable.
 
 ---
 
 ## Hardware
 
-### Capteur Principal
+### Main Sensor
 
-**Modèle** : SEN0313 / A01NYUB ou
+**Model**: SEN0313 / A01NYUB
 
-![Capteur SEN0313](https://github.com/lorenzor0912/Projet-IT-Neige/blob/f1702dfe2ce56fabe681698466927644a630968b/ReadMe_IMG/SEN0313.JPG)
+![SEN0313 sensor](https://github.com/lorenzor0912/Projet-IT-Neige/blob/f1702dfe2ce56fabe681698466927644a630968b/ReadMe_IMG/SEN0313.JPG)
 
 <details>
-<summary>Spécifications techniques détaillées</summary>
+<summary>Detailed technical specifications</summary>
 
-**Caractéristiques**
-- Type : Capteur ultrasonique étanche IP67
-- Plage de mesure : 28 cm à 750 cm
-- Résolution : 1 cm / Précision : ±1%
-- Angle de détection : 70° (avec cône fourni)
+**Characteristics**
+- Type: waterproof ultrasonic sensor (IP67)
+- Measurement range: 28 cm to 750 cm
+- Resolution: 1 cm / accuracy: ±1%
+- Detection angle: 70° (with included cone)
 
-**Électrique**
-- Tension d'alimentation : 3,3 V à 5 V DC
-- Consommation : <15 mA (actif) / <5 mA (veille)
-- Interface : UART (9600 bps par défaut)
+**Electrical**
+- Supply voltage: 3.3 V to 5 V DC
+- Consumption: <15 mA (active) / <5 mA (sleep)
+- Interface: UART (9600 bps default)
 
-**Environnemental**
-- Température d'opération : -15°C à +60°C
-- Étanchéité : IP67 (immersion jusqu'à 1 m pendant 30 min)
-- Résistance : poussière, brouillard, fumée
+**Environmental**
+- Operating temperature: -15°C to +60°C
+- Ingress protection: IP67 (immersion up to 1 m for 30 min)
+- Resistance: dust, fog, smoke
 
-**Avantages**
-- Mesure directe en UART (pas de calcul de temps de vol)
-- Cône amovible pour optimiser la directivité
-- Meilleure pénétration que les HC-SR04 classiques
-- Alimentation flexible (3,3V–5V)
+**Advantages**
+- Direct UART output (no time-of-flight calculation required)
+- Removable cone to optimize directivity
+- Better penetration than classic HC-SR04 modules
+- Flexible supply voltage (3.3 V – 5 V)
 
 **Documentation**
-- [Guide officiel DF Robot](https://www.dfrobot.com/product-1934.html)
-- [Datasheet PDF](https://wiki.dfrobot.com/A01NYUB%20Waterproof%20Ultrasonic%20Sensor%20SKU:%20SEN0313)
+- [Official DFRobot guide](https://www.dfrobot.com/product-1934.html)
+- [Datasheet](https://wiki.dfrobot.com/A01NYUB%20Waterproof%20Ultrasonic%20Sensor%20SKU:%20SEN0313)
 
-A noter que nous étudions un éventuelle compatibilité du JSN-SR04T.
+Compatibility with the JSN-SR04T is currently under evaluation.
 
 </details>
 
 ---
 
-### Microcontrôleur
+### Microcontroller
 
+**Suggested references**: ESP32-DevKitC, ESP32-WROVER (for additional PSRAM), or a dedicated low-power module.
 
-**Référence suggérée** : ESP32-DevKitC ou ESP32-WROVER pour stockage PSRAM additionnel ou module basse consomation.
-Nous sommes partis sur un module basse consomation: uPesy ESP32 Wroom Low Power 
+The current choice is the **uPesy ESP32 WROOM Low Power**.
 
-ATTENTION! NE SONT PAS RECCOMANDE DES MODULES TOUS EN UN STYLE HELTEC car nous avons eu des problèmes avec ce types de cartes durant la programmation.
+> **Note**: all-in-one modules such as Heltec are **not recommended** — we encountered programming issues with these boards.
 
 ---
 
 ### Communications
 
-Le système utilise des technologies basse consommation pour maximiser l'autonomie.
+The system uses low-power technologies to maximize battery life.
 
-#### LoRaWAN (mode principal retenu)
+#### LoRaWAN (primary mode)
 
-- **Module** : Ebyte E220-900T22D
-- Très faible consommation (~20–50 mA en transmission)
-- Portée longue distance (>10 km en terrain dégagé)
-- Pas d'abonnement cellulaire, idéal pour mesures espacées (4h)
-- Inconvénient : infrastructure gateway requise, débit limité
+- **Module**: Ebyte E220-900T22D
+- Very low consumption (~20–50 mA in transmission)
+- Long range (>10 km in open terrain)
+- No cellular subscription required, ideal for sparse measurements (every 4 h)
+- Drawback: requires gateway infrastructure, limited throughput
 
-#### Meshtastic 
+#### Meshtastic
 
-- Voir si intégration possible intéréssant car maillé
-
-#### 4G/LTE (option alternative)
-
-- **Module** : SIM7600E-H ou SIM800L
-- Couverture étendue, débit élevé, géolocalisation GPS intégrée
-- Consommation élevée (~100–500 mA) et coût d'abonnement (~10€/mois)
-
-<details>
-<summary>Tableau comparatif détaillé</summary>
-
-| Critère | LoRaWAN | Meshtastic | 4G/LTE |
-|---------|---------|------------|--------|
-| Portée | 2–15 km | 5–50 km (maillé) | 10–20 km |
-| Consommation | 🟢 Faible (20–50 mA) | 🟢 Faible (30–80 mA) | 🔴 Élevée (100–500 mA) |
-| Coût opérationnel | 🟢 Gratuit | 🟢 Gratuit | 🔴 ~10€/mois |
-| Infrastructure | 🟡 Gateway requis | 🟡 Multi-nœuds | 🟢 Existante |
-| Latence | 🟡 Minutes | 🟡 Variable | 🟢 Temps réel |
-
-
-</details>
-
-**Recommandation** : LoRaWAN en priorité pour l'efficacité énergétique.
+- Integration under study — interesting due to its mesh topology
 
 ---
 
-### Stockage
+### Storage
 
-**Solution** : Carte microSD
+**Solution**: microSD card
 
-- Fréquence de mesure : Variable
-- Format : CSV avec timestamp + logs d'autres capteurs
-
----
-
-### Alimentation
-
-**Autonomie cible : 4 mois**
-
-Mais réalistiquement infaisable sans panneau solaire et grosse batterie une grosse optimisation est a prévoir sur la partie code pour essayer de consomer le moins possible 
-
+- Measurement frequency: variable
+- Format: CSV with timestamp + logs from other sensors
 
 ---
 
-### Matériaux & Boîtier
+### Power
 
-Le boîtier doit résister à des conditions extrêmes : neige, UV, humidité, températures de -30°C, pendant 10 ans.
+**Target battery life: 4 months**
 
-#### Comparatif des matériaux d'impression 3D
-
-| Critère | ASA-CF | PETG-CF | PET | ABS | PLA | ASA (std) | PC | PETG (std) | Nylon (PA) |
-|---------|--------|---------|-----|-----|-----|-----------|----|-----------|-----------| 
-| Résistance au froid (-30°C) | 🟢🟢 | 🟢🟢 | 🟢 | 🟢 | 🔴🔴 | 🟢🟢 | 🟢🟢 | 🟢🟢 | 🟢🟢 |
-| Durabilité UV (10 ans ext.) | 🟢🟢 | 🟢 | 🔴 | 🔴 | 🔴🔴 | 🟢🟢 | 🟡 | 🟡 | 🟡 |
-| Résistance à l'humidité | 🟢🟢 | 🟢🟢 | 🟢 | 🟢 | 🔴 | 🟢🟢 | 🟡 | 🟢🟢 | 🔴 |
-| Stabilité dimensionnelle | 🟢🟢 | 🟢🟢 | 🟢 | 🟡 | 🔴 | 🟢🟢 | 🟢 | 🟢🟢 | 🔴 |
-| Facilité d'impression | 🔴 | 🔴 | 🟢 | 🟡 | 🟢🟢 | 🟡 | 🔴🔴 | 🟢🟢 | 🔴 |
-| Résistance mécanique | 🟢🟢 | 🟢🟢 | 🟢 | 🟢 | 🟡 | 🟢 | 🟢🟢 | 🟢 | 🟢🟢 |
-
-Légende : 🟢🟢 Excellent · 🟢 Bon · 🟡 Moyen · 🔴 Faible · 🔴🔴 À éviter
-
-<details>
-<summary>Notes techniques détaillées</summary>
-
-**Résistance au froid**
-- PLA : devient cassant en dessous de 0°C → **À ÉVITER**
-- PC & Nylon : restent flexibles même à -30°C
-- ASA/ASA-CF : température de fléchissement >100°C
-
-**Durabilité UV**
-- ASA & ASA-CF : meilleure résistance (usage automobile) — stabilisants UV intégrés, pas de jaunissement après 5+ ans
-- PLA, ABS, PET : dégradation rapide (jaunissement, fragilisation en <1 an)
-- Nylon : variable selon type (PA12 > PA6)
-
-**Résistance à l'humidité**
-- ASA-CF : ~0,3–0,5% (excellent)
-- PETG : très hydrophobe (~0,2%)
-- Nylon PA6 : jusqu'à 8% ⚠️ (gonflement, perte de rigidité)
-- PLA : gonflement + perte de propriétés mécaniques
-
-**Facilité d'impression**
-- Facile (PLA, PETG) : plateau 50–60°C, pas d'enceinte requise
-- Enceinte chauffée requise (ASA, ABS, PC, Nylon) : 40–60°C, plateau 80–110°C
-- Matériaux CF : buse acier trempé ou rubis obligatoire (fibres abrasives)
-- PC & Nylon : >250°C, séchage 6–12h à 70°C avant impression
-
-</details>
-
+Realistically not achievable without a solar panel and a large battery. Significant firmware optimization is required to minimize power draw.
 
 ---
 
 ## Software
 
+### The starting point:
+
+We initially started writing the code in the Arduino IDE. But once we decided to integrate a GUI, the project quickly became difficult to manage. The codebase grew too large and complex for the IDE to handle efficiently, so we made the call to start over and rebuild everything from scratch using PlatformIO. That switch turned out to be a game changer it gave us better project structure, faster compile times, and a much smoother development workflow overall.
 
 
-### Fonctionnalités prévues
+We even took the liberty of adding a few bonus features just for fun, like a real-time GPS map viewer to track the device’s location. It wasn’t strictly necessary, but it made the prototype much more interactive and satisfying to demo.
 
-- [ ] **Acquisition de données**
-  - Lecture des données SEN0313 (valeur directe en cm via UART)
-  - Timestamping précis (RTC DS3231 externe)
-  - Moyennage sur N échantillons (filtrage bruit)
-- [ ] **Gestion de l'énergie**
-  - Deep sleep ESP32 entre mesures (4h)
-  - Wake-up timer configurable
-  - Surveillance batterie (ADC + diviseur pont)
-- [ ] **Stockage**
-  - Écriture CSV sur carte SD
-  - Rotation logs automatique (fichiers journaliers)
-  - Protection buffer en cas de coupure
-- [ ] **Communication**
-  - Envoi périodique via LoRaWAN ou Meshtastic
-  - Protocole configuré selon gateway disponible
-  - Retry logic avec backoff exponentiel (en gros c ton tel quand il se bloque c exponantiel)
+Main GUI Features
+The interface is hosted on a local Wi-Fi Access Point named “Snow Transceiver” (password-protected). Once your device connects, simply open a browser and navigate to 192.168.4.1 to access the dashboard. The GUI includes:
 
----
+- Landing Page / Main Dashboard: A live overview displaying real-time snow depth measurements, along with status indicators that show whether all connected sensors and modules are online.
 
-## Installation & Déploiement
+- Ultrasonic Sensor Page: A dedicated control panel for the primary sensor. It includes a tare/calibration function to zero the baseline distance, and is intentionally kept minimal to avoid clutter.
 
-### Liste du matériel nécessaire
+- GPS & Location Page: Real-time latitude, longitude, and altitude readings, along with a movement status indicator. Includes a live, scrollable map with tile rendering for visual tracking
 
-| Composant | Qté | Prix unitaire | Lien |
-|-----------|-----|---------------|------|
-| Capteur SEN0313 ou | 1 | ~30€ | [none](https://) |
-| ESP32 | 1 | ~5€ | [none](https://) |
-| Module LoRa  | 1 | ~15–25€ | [none](https://) |
-| Carte SD | 1 | ~13€ | [none](https://) |
-| Batterie | 1 | ~100€ | [ none] |
-| Boîtier (impression) | 1 | ~15€ (filament) | À imprimer |
-| Connectique étanche | Divers | ~10€ | [none](https://) |
-| **TOTAL** | | **~a calculer** | |
+- Accelerometer Dashboard: Live acceleration data in milligrams (mG), with adjustable sensitivity tuning to fine-tune motion or fall-detection thresholds.
+
+- SD Card Logger & Data Management: Continuously logs all sensor data to a CSV file. Features one-click download directly from the GUI, a data preview with outlier/anomaly detection, and extensive logging configuration options.
+
+- Battery Monitor: Displays current charge percentage, estimated remaining runtime, and voltage status for proactive power management.
+
+- LoRa Transmission Settings: Region selection (915 MHz or 868 MHz EU), adjustable TX power (dBm), channel configuration, and additional RF optimization parameters.
+
+- Environmental Sensors: Live temperature and humidity readings for environmental context and real-time ultrasonic compensation.
+
+- System Settings: A centralized configuration hub with deep customization options for thresholds, update intervals, communication parameters, and module-specific tuning across the entire system.
+
+
 
 ---
 
-## Licence
+## Installation & Deployment
 
-Ce projet est sous licence **GNU General Public License v3.0** — voir le fichier [LICENSE](LICENSE) pour plus de détails.
+### Bill of materials
+
+| Component | Qty | Unit price | Link |
+|-----------|-----|------------|------|
+| SEN0313 sensor | 1 | ~€30 | TBD |
+| ESP32 module | 1 | ~€5 | TBD |
+| LoRa module | 1 | ~€15–25 | TBD |
+| SD card | 1 | ~€13 | TBD |
+| Battery | 1 | ~€100 | TBD |
+| Enclosure (3D printed) | 1 | ~€15 (filament) | To print |
+| Sealed connectors | Various | ~€10 | TBD |
+| **TOTAL** | | **TBD** | |
+
+---
+
+## License
+
+This project is released under the **GNU General Public License v3.0** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
 <div align="center">
 
-### Développé par
+### Developed by
 
-<img src="https://github.com/Lorenzo-x64/Projet-IT-Neige/blob/a68dd4287c40711deb7713e88d299c58865ecca4/ReadMe_IMG/Sti%20Labs.svg" alt="Logo Sti2D Labs" width="600" height="600" />
+<img src="https://github.com/Lorenzo-x64/Projet-IT-Neige/blob/a68dd4287c40711deb7713e88d299c58865ecca4/ReadMe_IMG/Sti%20Labs.svg" alt="Sti2D Labs logo" width="600" height="600" />
 
-<p><strong>Merci!</strong></p>
+<p><strong>Thank you!</strong></p>
 
 </div>
 
 <div align="right">
-  <a href="#top">↑ Retour en haut</a>
+  <a href="#top">↑ Back to top</a>
 </div>
