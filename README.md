@@ -50,7 +50,7 @@
 
 ## Overview
 
-Autonomous snow depth measurement station designed to operate in harsh climatic conditions (down to -30°C) and to be controlled remotely.
+Autonomous snow depth measurement station designed to operate in harsh climatic conditions (down to -30°C) and to be operated remotely.
 
 | Feature | Specification |
 |---------|---------------|
@@ -75,7 +75,7 @@ The PVC-based prototype includes only the core features our professor required: 
 
 The advanced version builds on that foundation. It retains all the base features but adds LoRa transmission for long-range communication, an accelerometer for fall detection, and a temperature sensor. The temperature data isn't just extra information—it's used to apply real-time corrections to the ultrasonic readings, improving accuracy since sound speed varies with air temperature.
 
-And physically, instead of the PVC tube design, this version uses a custom-designed enclosure: more compact, better organized internally, and built to accommodate the extra electronics while staying robust and serviceable.
+And physically, instead of the PVC tube design, this version uses a custom-designed 3d printed enclosure: more compact, better organized internally, and built to accommodate the extra electronics while staying robust and serviceable.
 
 ---
 
@@ -128,8 +128,7 @@ Compatibility with the JSN-SR04T is currently under evaluation.
 
 The current choice is the **uPesy ESP32 WROOM Low Power**.
 
-> **Note**: all-in-one modules such as Heltec are **not recommended** — we encountered programming issues with these boards.
-
+> **Note**: all-in-one modules such as Heltec can be used althow we encountered some issues with the arduino IDE but worked smoothly with PlatformIo
 ---
 
 ### Communications
