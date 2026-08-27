@@ -2,16 +2,16 @@
 <h1 align="center">Snow Depth Sensor</h1>
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/lorenzor0912/Projet-IT-Neige/blob/0a817e1d05e45fb6e63a99a292cdd9ac2ce48b34/ReadMe_IMG/It%20neige.svg" />
-    <img src="https://github.com/lorenzor0912/Projet-IT-Neige/blob/0a817e1d05e45fb6e63a99a292cdd9ac2ce48b34/ReadMe_IMG/It%20neige.svg" alt="Main logo" width="400" height="400" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Tux-x64/Snow-Depth-Sensor/blob/main/Img/It%20neige.svg" />
+    <img src="https://github.com/Tux-x64/Snow-Depth-Sensor/blob/main/Img/It%20neige.svg" alt="Main logo" width="400" height="400" />
   </picture>
   <br/><br/>
   <p>
     <img src="https://img.shields.io/badge/Status-Active-22c55e?style=flat-square" alt="Status"/>
     <img src="https://img.shields.io/badge/License-GPL_v3-blue?style=flat-square" alt="License"/>
-    <img src="https://img.shields.io/github/last-commit/lorenzor0912/Projet-IT-Neige?style=flat-square&color=blueviolet" alt="Last commit"/>
-    <img src="https://img.shields.io/github/stars/lorenzor0912/Projet-IT-Neige?style=flat-square&color=ffd700" alt="Stars"/>
-    <img src="https://img.shields.io/github/v/release/lorenzor0912/Projet-IT-Neige?style=flat-square" alt="Release"/>
+    <img src="https://img.shields.io/github/last-commit/Tux-x64/Snow-Depth-Sensor?style=flat-square&color=blueviolet" alt="Last commit"/>
+    <img src="https://img.shields.io/github/stars/Tux-x64/Snow-Depth-Sensor?style=flat-square&color=ffd700" alt="Stars"/>
+    <img src="https://img.shields.io/github/v/release/Tux-x64/Snow-Depth-Sensor?style=flat-square" alt="Release"/>
   </p>
   <p>
     <img src="https://img.shields.io/badge/MCU-ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white" alt="ESP32"/>
@@ -30,8 +30,6 @@
   <a href="https://tux-x64.github.io/Snow-Esp-Flasher/" target="_blank"><img src="https://img.shields.io/badge/%20-Online%20Flasher-F59E0B?style=flat-square&labelColor=6B7280&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCI+PHBhdGggZD0iTTQgMTRhMSAxIDAgMCAxLS43OC0xLjYzbDkuOS0xMC4yYS41LjUgMCAwIDEgLjg2LjQ2bC0xLjkyIDYuMDJBMSAxIDAgMCAwIDEzIDEwaDdhMSAxIDAgMCAxIC43OCAxLjYzbC05LjkgMTAuMmEuNS41IDAgMCAxLS44Ni0uNDZsMS45Mi02LjAyQTEgMSAwIDAgMCAxMSAxNHoiLz48L3N2Zz4=" alt="Online Flasher"/></a>
   <a href="https://www.printables.com/model/1731900-esp32-driven-snow-depth-sensor-with-lora-transmiss" target="_blank"><img src="https://img.shields.io/badge/%20-3D%20Files-FA6831?style=flat-square&labelColor=6B7280&logo=printables&logoColor=white" alt="3D Files"/></a>
 </div>
-
-
 
 ## Table of Contents
 
@@ -65,11 +63,9 @@ Autonomous snow depth measurement station designed to operate in harsh climatic 
 | Increased Ultrasonic sensor accuracy | Temp Sensor |
 | GUI | Simple To use good looking user interface |
 
-
-
 This project ultimately evolved into two versions: a "basic" prototype and an "advanced" one. 
 
-Both share the same goal but differ in complexity and features. Our professor initially specified a simple yet efficient base design: PVC tubing with 3D-printed top and bottom end caps. At first, I wasn’t sold on it. I worried that routing components inside a cylindrical tube would make space management tricky, and the overall design felt a bit too amateurish. That’s why I decided to take it a step further and develop a second version, packing it with more advanced electronic and physical features.
+Both share the same goal but differ in complexity and features. Our professor initially specified a simple yet efficient base design: PVC tubing with 3D-printed top and bottom end caps. At first, I wasn't sold on it. I worried that routing components inside a cylindrical tube would make space management tricky, and the overall design felt a bit too amateurish. That's why I decided to take it a step further and develop a second version, packing it with more advanced electronic and physical features.
 
 The PVC-based prototype includes only the core features our professor required: GPS, an SD card logger, and the main ultrasonic sensor. The only addition beyond the brief is a simple user interface to control and monitor the device something we added for practicality, even though it wasn't explicitly requested.
 
@@ -85,7 +81,7 @@ And physically, instead of the PVC tube design, this version uses a custom-desig
 
 **Model**: SEN0313 / A01NYUB
 
-![SEN0313 sensor](https://github.com/lorenzor0912/Projet-IT-Neige/blob/f1702dfe2ce56fabe681698466927644a630968b/ReadMe_IMG/SEN0313.JPG)
+![SEN0313 sensor](https://github.com/Tux-x64/Snow-Depth-Sensor/blob/main/Img/SEN0313.JPG)
 
 <details>
 <summary>Detailed technical specifications</summary>
@@ -172,11 +168,10 @@ Realistically not achievable without a solar panel and a large battery. Signific
 
 We initially started writing the code in the Arduino IDE. But once we decided to integrate a GUI, the project quickly became difficult to manage. The codebase grew too large and complex for the IDE to handle efficiently, so we made the call to start over and rebuild everything from scratch using PlatformIO. That switch turned out to be a game changer it gave us better project structure, faster compile times, and a much smoother development workflow overall.
 
-
-We even took the liberty of adding a few bonus features just for fun, like a real-time GPS map viewer to track the device’s location. It wasn’t strictly necessary, but it made the prototype much more interactive and satisfying to demo.
+We even took the liberty of adding a few bonus features just for fun, like a real-time GPS map viewer to track the device's location. It wasn't strictly necessary, but it made the prototype much more interactive and satisfying to demo.
 
 Main GUI Features
-The interface is hosted on a local Wi-Fi Access Point named “Snow Transceiver” (password-protected). Once your device connects, simply open a browser and navigate to 192.168.4.1 to access the dashboard. The GUI includes:
+The interface is hosted on a local Wi-Fi Access Point named "Snow Transceiver" (password-protected). Once your device connects, simply open a browser and navigate to 192.168.4.1 to access the dashboard. The GUI includes:
 
 - Landing Page / Main Dashboard: A live overview displaying real-time snow depth measurements, along with status indicators that show whether all connected sensors and modules are online.
 
@@ -195,8 +190,6 @@ The interface is hosted on a local Wi-Fi Access Point named “Snow Transceiver�
 - Environmental Sensors: Live temperature and humidity readings for environmental context and real-time ultrasonic compensation.
 
 - System Settings: A centralized configuration hub with deep customization options for thresholds, update intervals, communication parameters, and module-specific tuning across the entire system.
-
-
 
 ---
 
@@ -227,7 +220,7 @@ This project is released under the **GNU General Public License v3.0** — see t
 
 ### Developed by
 
-<img src="https://github.com/Lorenzo-x64/Snow-Depth-Sensor/blob/f0ce491dcf3d831aa2e25147188997d186dc494c/Img/Sti%20Labs.svg" alt="Sti2D Labs logo" width="600" height="600" />
+<img src="https://github.com/Tux-x64/Snow-Depth-Sensor/blob/main/Img/Sti%20Labs.svg" alt="Sti2D Labs logo" width="600" height="600" />
 
 <p><strong>Thank you!</strong></p>
 
